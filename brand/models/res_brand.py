@@ -17,3 +17,5 @@ class ResBrand(models.Model):
         delegate=True,
         ondelete="restrict",
     )
+
+    is_company_details_empty = fields.Boolean(default=False)
